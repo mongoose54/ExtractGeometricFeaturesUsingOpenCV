@@ -126,4 +126,4 @@
         shapeIndex = cv::arcLength(contours[contourID], YES)/(2*sqrt(3.14*area));  //Shape index of ROI
         
         NSLog(@"Area = %f and perimeter = %f, circularity = %f, compactness = %f, shape index = %f effective diameter = %f",area,perimeter,circularity,compactness,shapeIndex,effectiveDiameter);
-        
+    }
